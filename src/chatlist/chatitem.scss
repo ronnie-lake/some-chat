@@ -1,0 +1,60 @@
+.chatitem {
+	padding: 5px;
+	display: block;
+	background-color: #3e3c61;
+	padding: 10px;
+	overflow: hidden;
+
+	&__imgwrap {
+		border-radius: 50%;
+		border: 3px solid #3e3c61;
+		width: 45px;
+		height: 45px;
+		display: inline-block;
+		background-color: #fff;
+		margin-right: 10px;
+		overflow: hidden;
+
+		&_online {
+			border: 3px solid #00ed12;
+		}
+	}
+
+	&__img {
+		height: 100%;	
+	}
+
+	&__infowrap {
+		display: inline-block;
+		vertical-align: top;
+		width: 225px;
+	}
+
+	&__name {
+		color: #fff;
+		font-size: 16px;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 400;
+		display: block;
+		margin-bottom: 7px;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		margin-top: 4px;
+	}
+
+	&__message {
+		vertical-align: top;
+		display: block;
+		color: #75739a;
+		font-size: 14px;
+		font-weight: 600;
+		font-family: 'Open Sans', sans-serif;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+}
+
+
+

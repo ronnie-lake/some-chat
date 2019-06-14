@@ -1,0 +1,18 @@
+.chatlist {
+
+	&__wrapper {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__list {
+		width: 310px;
+		box-sizing: border-box;
+		background-color: #3e3c61;
+		display: inline-block;
+		vertical-align: top;
+		height: 100%;
+		flex-shrink: 1;
+	}
+
+}

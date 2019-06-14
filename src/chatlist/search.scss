@@ -1,0 +1,33 @@
+.search {
+
+	&__wrapper {
+		background-color: #3e3c61;
+		border-bottom: 1px solid #4c4a6f;
+		padding: 10px 15px;
+	}
+
+	&__loupe {
+		display: inline-block;
+		margin-right: 12px;
+		width: 28px;
+		height: 28px;
+		background: url(../img/search.png) 0 0;
+		background-size: 100%;
+		vertical-align: top;
+	}
+
+	&__input {
+		outline: none;
+		border: none;
+		color: #dcdcf6;
+		background-color: #3e3c61;
+		font-size: 18px;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 300;
+		vertical-align: top;
+
+		&::placeholder {
+			color: #dcdcf6;
+		}
+	}
+}

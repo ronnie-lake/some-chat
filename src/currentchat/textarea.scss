@@ -1,0 +1,37 @@
+.textarea {
+
+	&__wrapper {
+		background-color: #fff;
+		flex-grow: 0;
+		padding: 10px;
+		box-sizing: border-box;
+		border: 1px solid #dcdcf6;
+		border-radius: 0 0 3px 0;
+	}
+
+	&__input {
+		display: inline-block;
+		width: 660px;
+		resize: none;
+		border: none;
+		outline: none;
+		font-size: 16px;
+	    font-weight: 400;
+	    color: #262626;
+	    font-family: 'Open Sans', sans-serif;
+
+	    &::placeholder {
+			color: #a8a7af;
+	    }
+	}
+
+	&__button {
+		display: inline-block;
+		width: 40px;
+		height: 40px;
+		margin-left: 10px;
+		background: url(../img/paperplane.png) no-repeat 0 0;
+		background-size: 100%;
+		cursor: pointer;
+	}
+}

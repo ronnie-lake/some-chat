@@ -1,0 +1,61 @@
+.outgoing {
+
+	&__wrapper {
+		display: block;
+		position: relative;
+		padding: 8px 90px 8px 0;
+		display: flex;
+		justify-content: flex-end;
+	}
+
+	&__imgwrap {
+		border-radius: 50%;
+		width: 45px;
+		height: 45px;
+		display: inline-block;
+		background-color: #fff;
+		margin-right: 10px;
+		overflow: hidden;
+		filter: drop-shadow(0 1px 3px rgba(0,0,0,.3));
+		position: absolute;
+		top: 0;
+		right: 25px;
+		margin: 0;
+
+		&_hidden {
+			display: none;
+		}
+	}
+
+	&__img {
+		height: 100%;	
+	}
+	
+	&__cloud {
+		display: inline-block;
+		border-radius: 5px;
+		background-color: #839fff;
+		position: relative;
+		padding: 8px;
+		color: #fff;
+		font-size: 16px;
+	    font-weight: 400;
+	    font-family: 'Open Sans', sans-serif;
+		filter: drop-shadow(0 1px 3px rgba(0,0,0,.3));
+
+		&:after {
+			content: "";
+			position: absolute;
+			top: 6px;
+			right: -12px;
+			clip-path: polygon(0 0, 0% 100%, 100% 0);
+			width: 13px;
+			height: 13px;
+			background-color: #839fff;
+		}
+	}
+
+	&__message {
+
+	}
+}

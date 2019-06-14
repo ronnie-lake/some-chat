@@ -1,0 +1,15 @@
+.login {
+	width: 100%;
+	margin: 20px auto 0;
+	text-align: center;
+
+	&__text {
+		color: #5e5c8e;
+		font-size: 13px;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 600;
+		vertical-align: top;
+		text-transform: uppercase;
+
+	}
+}

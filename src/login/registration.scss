@@ -1,0 +1,58 @@
+.registration{
+	width: 400px;
+	margin: 10px auto;
+	background-color: #ddddf7;
+	padding: 10px 30px;
+
+	&__caption {
+		color: #5e5c8e;
+		font-size: 13px;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 600;
+		vertical-align: top;
+		text-transform: uppercase;
+	}
+
+	&__form {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-end;
+		margin: 10px 0;
+	}
+
+	&__name {
+		color: #5e5c8e;
+		font-size: 13px;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 600;
+		margin-right: 20px;
+		margin-bottom: 10px;
+		vertical-align: top;
+		margin-top: 10px;
+		text-transform: uppercase;
+	}
+
+	&__field {
+		outline: none;
+	    background: #fff;
+	    padding: 5px;
+	    font-size: 20px;
+	    color: #2f2d52;
+	    border: none;
+	    margin-bottom: 10px;
+	    vertical-align: top;
+	}
+
+	&__button {
+		font-size: 13px;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 400;
+		border: none;
+		color: #fff;
+		background-color: #5e5c8e;
+		padding: 8px 20px;
+		text-transform: uppercase;
+		border-radius: 2px;
+
+	}
+}
